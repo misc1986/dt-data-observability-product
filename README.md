@@ -58,29 +58,25 @@ PRODUCT-XXXXX-pack-name.md
 
 1. Copy `templates/VALUE_INCREMENT_TEMPLATE.md` to `value-increments/`
 2. Name it following the convention above
-3. Update the YAML frontmatter:
-   - `key`: Add PRODUCT-XXXXX when Jira issue is created (leave as placeholder initially)
-   - `summary`: Write a feature-focused title describing the capability
-   - `status`: Set the current stage (default: `Open`)
+3. Update the metadata at the top:
+   - **Key**: Add PRODUCT-XXXXX when Jira issue is created (leave as placeholder initially)
+   - **Status**: Set the current stage (default: `Open`)
+   - **Value Pack**: Link to parent Value Pack with PRODUCT-XXXXX — [Name]
 4. Fill in the VI details progressively (Idea → Why → What → How)
-5. Link to parent Value Pack in the "Parent" section
-6. Rename the file if needed to include the Jira ID when assigned
+5. Rename the file if needed to include the Jira ID when assigned
 
 ## Document Structure
 
 Each Value Increment document includes:
 
-**YAML Frontmatter:**
-```yaml
----
-key: PRODUCT-XXXXX  # Jira issue key (assigned on creation)
-summary: <Feature-focused title>
-status: Open  # Current workflow stage
----
+**Metadata (blockquote at top):**
+```markdown
+> **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
+> **Status:** <Open | Problem stated | Use case defined | Ready for implementation | In progress | Done>  
+> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]
 ```
 
 **Content Sections:**
-- **Parent** — Link to parent Value Pack
 - **Idea (Open)** — Short abstract and experience statement
 - **Why (Problem stated)** — Human challenge, pain points, personas, competitive context
 - **What (Use case defined)** — Scenarios, surfaces, scope
@@ -88,7 +84,7 @@ status: Open  # Current workflow stage
 
 ## Workflow
 
-Value Increments progress through these stages (update the `status` field in the YAML frontmatter):
+Value Increments progress through these stages (update the `Status` field in the metadata blockquote):
 
 - **Open** — Accepted for consideration
 - **Problem stated** — Why/pain points clarified
