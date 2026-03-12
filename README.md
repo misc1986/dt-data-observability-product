@@ -58,19 +58,41 @@ PRODUCT-XXXXX-pack-name.md
 
 1. Copy `templates/VALUE_INCREMENT_TEMPLATE.md` to `value-increments/`
 2. Name it following the convention above
-3. Fill in the VI details progressively (Idea → Why → What → How)
-4. Update the Jira ID when the issue is created
-5. Rename the file if needed to include the Jira ID
+3. Update the YAML frontmatter:
+   - `key`: Add PRODUCT-XXXXX when Jira issue is created (leave as placeholder initially)
+   - `summary`: Write a feature-focused title describing the capability
+   - `status`: Set the current stage (default: `Open`)
+4. Fill in the VI details progressively (Idea → Why → What → How)
+5. Link to parent Value Pack in the "Parent" section
+6. Rename the file if needed to include the Jira ID when assigned
+
+## Document Structure
+
+Each Value Increment document includes:
+
+**YAML Frontmatter:**
+```yaml
+---
+key: PRODUCT-XXXXX  # Jira issue key (assigned on creation)
+summary: <Feature-focused title>
+status: Open  # Current workflow stage
+---
+```
+
+**Content Sections:**
+- **Parent** — Link to parent Value Pack
+- **Idea (Open)** — Short abstract and experience statement
+- **Why (Problem stated)** — Human challenge, pain points, personas, competitive context
+- **What (Use case defined)** — Scenarios, surfaces, scope
+- **How (Ready for implementation)** — Deliverables, requirements, acceptance criteria
 
 ## Workflow
 
-Value Increments progress through these stages:
-- **Idea** — Initial concept
+Value Increments progress through these stages (update the `status` field in the YAML frontmatter):
+
 - **Open** — Accepted for consideration
 - **Problem stated** — Why/pain points clarified
 - **Use case defined** — What/scenarios documented
 - **Ready for implementation** — How/requirements complete
 - **In progress** — Being developed
 - **Done** — Shipped and validated
-
-Update the `Status` field in each VI document as it progresses.

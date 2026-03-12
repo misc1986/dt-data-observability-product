@@ -1,10 +1,5 @@
 # [Value Increment Name]
 
-> **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
-> **Status:** <Idea | Open | Problem stated | Use case defined | Ready for implementation | In progress | Done>  
-> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]
-
----
 
 > **Template guide:**  
 > **Trimmed for:** A small team where most VIs are lean. Full specification sections are marked optional — use them for cross-team or security-critical VIs.  
@@ -16,7 +11,19 @@
 > - Without Jira ID: `short-kebab-case-name.md` (rename when ID assigned)
 > - Keep names under 50 characters, use lowercase kebab-case
 
+## Template
+
+```yaml
 ---
+key: PRODUCT-XXXXX  # Assigned by Jira on creation
+summary: <Feature-focused title — what specific capability is being delivered?>
+status: Open
+---
+```
+
+### Parent
+
+- **PRODUCT-XXXXX** (Value Pack): <Parent Value Pack title>
 
 ## Idea (Open)
 
