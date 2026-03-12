@@ -10,11 +10,12 @@
 > **Trimmed for:** A small team where most VIs are lean. Full specification sections are marked optional — use them for cross-team or security-critical VIs.  
 > **When to use:** You're defining a concrete, implementable deliverable that enables a specific use case or feature. A VI is the actual work item that engineering commits to.
 > 
-> **File naming convention:**  
-> - Save to: `../value-increments/`
-> - With Jira ID: `PRODUCT-XXXXX-short-kebab-case-name.md`
-> - Without Jira ID: `short-kebab-case-name.md` (rename when ID assigned)
-> - Keep names under 50 characters, use lowercase kebab-case
+> **Folder structure:**  
+> - Create folder: `../value-increments/feature-name/` (or `PRODUCT-XXXXX-feature-name/`)
+> - Save this template as: `increment.md` in that folder
+> - Create subfolder: `artifacts/` for supporting materials
+> - Keep folder names under 50 characters, use lowercase kebab-case
+> - Rename folder when Jira ID is assigned
 
 ## Idea (Open)
 
