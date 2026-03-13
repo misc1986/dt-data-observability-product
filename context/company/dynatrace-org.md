@@ -69,32 +69,18 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 
 ---
 
-## Key Platform Capabilities (Dependencies)
+## Platform Capabilities & Dependencies
 
-**Grail** — Unified data lake for all observability data; DQL query engine  
-**OpenPipeline (PPX)** — Unified ingest, semantic normalization, routing for logs/metrics/traces/events  
-**Platform Apps (PAPA)** — Dashboards, Notebooks, Search, **Smartscape** (topology visualization)  
-**Platform Services (PS)** — IAM, tokens, documents, platform management, serverless runtime  
-**Data Intelligence** — Davis AI, Copilot backend, anomaly detection, causal analysis  
-
-**Business Analytics** — Business event analysis, KPI correlation  
-**Business Data Experience (BDX)** — **Data Observability capability** (our team)  
-
-**QSP** — Quality, Security, Privacy gates and standards  
-**SRE** — Site Reliability Engineering, production operations standards
-
----
-
-## Cross-Capability Dependencies
-
-**Critical for Data Observability:**
-
-- **OpenPipeline (PPX) ↔ Data Observability**: Pipeline telemetry flows through OpenPipeline for ingestion, normalization, and routing
-- **Grail ↔ Data Observability**: All pipeline data stored in Grail; queries via DQL
-- **Smartscape (PAPA) ↔ Data Observability**: Data pipelines as first-class topology entities with dependency mapping
-- **Davis AI (Data Intelligence) ↔ Data Observability**: Anomaly detection, causal RCA for pipeline failures
-- **Business Analytics ↔ Data Observability**: Correlate data pipeline health with business KPIs
-- **QSP/SRE ↔ All**: Reliability gates, security reviews, operational standards
+| Capability | What | Data Observability Relevance |
+|------------|------|------------------------------|
+| **Grail** | Unified data lake, DQL query engine | All pipeline data stored here |
+| **OpenPipeline (PPX)** | Ingest, normalization, routing | Pipeline telemetry flows through PPX |
+| **Smartscape (PAPA)** | Topology visualization | Data pipelines as first-class entities |
+| **Davis AI (Data Intelligence)** | Anomaly detection, causal RCA | Pipeline failure root cause analysis |
+| **Platform Services** | IAM, tokens, serverless runtime | Identity, access for pipeline apps |
+| **Business Analytics** | Business event analysis | Correlate pipeline health with KPIs |
+| **QSP** | Quality, Security, Privacy gates | Release gates, security reviews |
+| **SRE** | Reliability standards | Operational readiness, SLOs |
 
 ---
 
@@ -117,12 +103,6 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 - **Delivery Lead** — Planning & execution across teams; risk & dependency mitigation
 - **Architect** — Feasibility, cross-capability design, non-functionals
 
-### VCT (Value Creation Team) Model
-
-- Used for cross-org initiatives requiring dedicated focus
-- Charter includes: goal, KPIs, timeline, dependencies, resourcing, exit criteria
-- Dissolves upon completion
-
 ---
 
 ## Contact Channels (Slack)
@@ -142,16 +122,4 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 **Governance:**
 - QSP — Quality, Security, Privacy reviews
 - SRE — Reliability and operational standards
-
----
-
-## Key Takeaways for Data Observability
-
-1. **We are a Capability** (Business Data Experience) within the **Business Observability Solution**
-2. **Critical dependencies**: Grail (storage), OpenPipeline (ingestion), Smartscape (topology), Davis AI (anomaly detection)
-3. **Planning flow**: Value Packs → Value Increments → Capability EPICs with cross-capability linking
-4. **Governance touchpoints**: QSP (security), SRE (reliability), QCR (quarterly reviews)
-5. **Contact via Slack** `#help-*` channels for platform capabilities
-
-```
 
