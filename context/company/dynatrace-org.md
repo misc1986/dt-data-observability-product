@@ -58,6 +58,15 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 **Key Capabilities:** QSP (Quality, Security, Privacy), SRE (Site Reliability Engineering)  
 **Why relevant:** Release gates, security reviews, reliability requirements
 
+### Other Solutions (awareness)
+
+**Observability** — Application metrics/traces/logs, RUM, synthetic monitoring, infrastructure observability  
+**Application Security** — Runtime security, vulnerability detection, attack paths, DevSecOps  
+**Software Delivery** — CI/CD observability, DORA dashboards, quality gates, release intelligence, workflow automation  
+**Edge Data Platform** — OneAgent, OpenTelemetry, hybrid ingest, edge processing  
+**Growth & Monetization** — Pricing/packaging, DPS consumption, adoption analytics, licensing  
+**Managed** — On-prem/air-gapped deployments, lifecycle management for regulated industries
+
 ---
 
 ## Key Platform Capabilities (Dependencies)
