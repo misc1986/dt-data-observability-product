@@ -1,40 +1,20 @@
-# Value Pack Template (Data Observability)
+# [Value Pack Name]
 
-> **Adapted from:** `software-delivery/VALUE-PACK-TEMPLATE.md`  
-> **Trimmed for:** A small team (~4 people) working on a single-Solution, partnership-driven initiative.  
+> **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
+> **Status:** <Open | Solution Proposed | Solution accepted | Implementation | Cancelled | Done>  
+> **Summary:** <Business-value focused title — what customer problem does this solve?>
+
+---
+
+> **Template guide:**  
+> **Optimized for:** A small team (~4 people) working on a single-Solution, partnership-driven initiative.  
 > **When to use:** You're proposing a new press-release-worthy capability that becomes a strategic topic. If it's smaller, use a Value Increment instead.
-
-A **Value Pack** is a business case explaining **why** we should invest in solving a significant customer pain. It describes the problem, value, and scope — not the implementation details (those live in Value Increments).
-
----
-
-## Template
-
-```yaml
----
-key: PRODUCT-XXXXX  # Assigned by Jira on creation
-summary: <Business-value focused title, 8-15 words>
-status: Open
-priority: Undefined
-labels:
-  - <Capability label, e.g., data-quality, pipeline-obs, spark, snowflake>
-  - <Strategic label if applicable, e.g., definity-partnership>
-issueType: Value Pack
-customFields:
-  owning Program: Business Observability
-  Labs:
-    - Global
-  Participants:
-    - <Your Name>
-  Effort: 0
----
-```
-
-### Parent
-
-- **PRODUCT-XXXXX** (Key Theme): <Parent Key Theme title>
+> 
+> A **Value Pack** is a business case explaining **why** we should invest in solving a significant customer pain. It describes the problem, value, and scope — not the implementation details (those live in Value Increments).
 
 ---
+
+## Pitch (Open)
 
 ### 2 Minute Pitch
 
@@ -62,6 +42,10 @@ customFields:
 - <Internal team or external customer who will pilot this>
 - <Specific use case or need they have>
 
+---
+
+## Why (Solution Proposed)
+
 ### Pain Journey
 
 <Current pain points grouped by moments that matter. Keep it VP-level — details live in VIs.>
@@ -87,17 +71,21 @@ customFields:
 <Experience guardrails that shape this VP. Examples:
 - "Platform-native, not bolt-on"
 - "Data pipelines as first-class entities in Smartscape"
-- "Business language first — Raj shouldn't need to know Dynatrace concepts">
+- "Business language first — users shouldn't need to know Dynatrace internals">
 
 ### Where This Shows Up
 
 - Primary surfaces: <e.g., Data Observability App, Smartscape, Notebooks>
 - Secondary surfaces: <e.g., dashboards, APIs, alerts>
 
+---
+
+## What (Solution Accepted)
+
 ### Business Rationale
 
 <Why is this important for Dynatrace? Connect to:
-- MCG alignment (MCG 1 / 2 / 4)
+- MCG alignment
 - Market opportunity (TAM, customer demand signals)
 - Competitive pressure (Datadog, Monte Carlo, etc.)>
 
@@ -136,9 +124,14 @@ customFields:
 - <Feature or capability 2>
 - <Integration or partner deliverable>
 
-### Value Increments (outline)
+### Value Increments
 
-<List 3-7 candidate VIs (titles only). Details go into VI issues.>
+<Track VIs that deliver this Value Pack. Update status as work progresses.>
+
+| VI | Status | Owner | Target |
+|----|--------|-------|--------|
+| [PRODUCT-XXXXX](../value-increments/PRODUCT-XXXXX-feature/) | Open | @owner | Q1 2026 |
+| [Feature Name](../value-increments/feature-name/) | Not started | @owner | Q2 2026 |
 
 ### Data / Platform Assumptions
 
@@ -150,24 +143,6 @@ customFields:
 
 ---
 
-## Relationships
-
-```
-Key Theme (parent — required)
-    └── Value Pack (YOU ARE HERE)
-            └── Value Increment (children)
-```
-
-Link types:
-- **Parent**: Required link to Key Theme
-- **is improved by**: Value Increments that deliver parts of this VP
-- **relates to**: Other VPs with overlapping scope
-- **is blocked by**: Dependencies that must be resolved first
-
-## Status Workflow
-
-1. **Open** → 2. **Solution proposed** → 3. **Solution accepted** → 4. **Implementation** → 5. **Cancelled** (if deprioritized)
-
 ## Tips
 
 1. **Think press release** — Could this be announced externally? If not, it might be a VI.
@@ -175,17 +150,3 @@ Link types:
 3. **MCG mapping is mandatory** — Every VP must connect to at least one MCG.
 4. **Define Customer Zero** — Who validates this first?
 5. **Be explicit about build vs. partner** — What does definity.ai deliver vs. Dynatrace?
-
----
-
-## Common Labels (Data Observability)
-
-| Label | Purpose |
-|-------|---------|
-| `pipeline-obs` | Data pipeline observability |
-| `data-quality` | Data quality monitoring |
-| `spark` | Apache Spark / Databricks |
-| `snowflake` | Snowflake integration |
-| `definity-partnership` | Joint definity.ai work |
-| `ai-data-supply` | AI data supply chain |
-| `FY27` / `FY28` | Fiscal year targeting |

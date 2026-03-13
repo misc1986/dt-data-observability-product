@@ -2,12 +2,13 @@
 
 > **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
 > **Status:** <Open | Problem stated | Use case defined | Ready for implementation | In progress | Done>  
-> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]
+> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]  
+> **Summary:** <Feature-focused title — what specific capability is being delivered?>
 
 ---
 
 > **Template guide:**  
-> **Trimmed for:** A small team where most VIs are lean. Full specification sections are marked optional — use them for cross-team or security-critical VIs.  
+> **Optimized for:** A small team where most VIs are lean. Full specification sections are marked optional — use them for cross-team or security-critical VIs.  
 > **When to use:** You're defining a concrete, implementable deliverable that enables a specific use case or feature. A VI is the actual work item that engineering commits to.
 > 
 > **Folder structure:**  
@@ -16,6 +17,8 @@
 > - Create subfolder: `artifacts/` for supporting materials
 > - Keep folder names under 50 characters, use lowercase kebab-case
 > - Rename folder when Jira ID is assigned
+
+---
 
 ## Idea (Open)
 
@@ -164,6 +167,7 @@ As Dynatrace, this is important for **<MCG / Solution Strategy alignment>**.
 - Release notes: <category + title>
 - Support readiness: <runbooks, known limitations>
 
+---
 
 ## Tips
 
