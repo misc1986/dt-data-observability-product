@@ -7,7 +7,7 @@ This repository contains structured product documentation for Data Observability
 ```
 dt-data-observability-product/
 ├── templates/
-│   └── VALUE_INCREMENT_TEMPLATE.md    # Template for creating new VIs
+│   └── value-increment-template.md    # Template for creating new VIs
 ├── value-increments/                   # Individual deliverable features
 │   ├── PRODUCT-XXXXX-feature-name/     # VI folder (with or without Jira ID)
 │   │   ├── increment.md                # Main VI document
@@ -69,7 +69,7 @@ PRODUCT-XXXXX-pack-name.md
 1. Create a new folder in `value-increments/` with kebab-case name:
    - Without Jira: `value-increments/feature-name/`
    - With Jira: `value-increments/PRODUCT-XXXXX-feature-name/`
-2. Copy `templates/VALUE_INCREMENT_TEMPLATE.md` to `feature-name/increment.md`
+2. Copy `templates/value-increment-template.md` to `feature-name/increment.md`
 3. Create `feature-name/artifacts/` folder for supporting materials
 4. Update the metadata in `increment.md`:
    - **Key**: Add PRODUCT-XXXXX when Jira issue is created (leave as placeholder initially)
