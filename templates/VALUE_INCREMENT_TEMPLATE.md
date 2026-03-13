@@ -2,8 +2,7 @@
 
 > **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
 > **Status:** <Open | Problem stated | Use case defined | Ready for implementation | In progress | Done>  
-> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]  
-> **Summary:** <Feature-focused title — what specific capability is being delivered?>
+> **Value Pack:** PRODUCT-XXXXX — [Value Pack Name]
 
 ---
 

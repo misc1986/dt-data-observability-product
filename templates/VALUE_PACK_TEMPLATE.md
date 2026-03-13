@@ -1,8 +1,7 @@
 # [Value Pack Name]
 
 > **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
-> **Status:** <Open | Solution Proposed | Solution accepted | Implementation | Cancelled | Done>  
-> **Summary:** <Business-value focused title — what customer problem does this solve?>
+> **Status:** <Open | Solution Proposed | Solution accepted | Implementation | Cancelled | Done>
 
 ---
 
