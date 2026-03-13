@@ -127,18 +127,12 @@
 
 <Track VIs that deliver this Value Pack. Update status as work progresses.>
 
-| VI | Status | Owner | Target |
-|----|--------|-------|--------|
-| [PRODUCT-XXXXX](../value-increments/PRODUCT-XXXXX-feature/) | Open | @owner | Q1 2026 |
-| [Feature Name](../value-increments/feature-name/) | Not started | @owner | Q2 2026 |
+| VI | Status | Target |
+|----|--------|--------|
+| [PRODUCT-XXXXX](../value-increments/PRODUCT-XXXXX-feature/) | Open | Q1 2026 |
+| [Feature Name](../value-increments/feature-name/) | Not started | Q2 2026 |
 
-### Data / Platform Assumptions
 
-<Call out platform dependencies early:>
-- OpenTelemetry / OpenLineage support: <expectations>
-- OpenPipeline considerations: <mapping/enrichment/topology needs>
-- Smartscape integration: <entity model assumptions>
-- Grail storage: <schema/bucket expectations>
 
 ---
 
