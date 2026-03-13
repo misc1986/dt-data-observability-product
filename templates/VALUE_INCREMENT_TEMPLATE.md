@@ -1,4 +1,4 @@
-# [Value Increment Name]
+# [Value Increment Name — feature-focused title describing the capability]
 
 > **Key:** PRODUCT-XXXXX *(optional — add when Jira issue is created)*  
 > **Status:** <Open | Problem stated | Use case defined | Ready for implementation | In progress | Done>  
