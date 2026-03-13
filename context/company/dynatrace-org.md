@@ -58,9 +58,15 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 **Key Capabilities:** QSP (Quality, Security, Privacy), SRE (Site Reliability Engineering)  
 **Why relevant:** Release gates, security reviews, reliability requirements
 
+### Observability (cross-domain correlation)
+**Scope:** Application metrics/traces/logs, RUM, synthetic monitoring, infrastructure observability  
+**Key Capabilities:** Infrastructure Observability, Application Observability, AI Observability  
+**Why relevant:**
+- **Infrastructure Observability** — Data pipelines run on infrastructure (Databricks clusters, Spark executors, K8s); cross-correlation for RCA
+- **AI Observability** — Shared narrative ("Data Observability is the prerequisite for AI Observability"); joint GTM, shared personas
+
 ### Other Solutions (awareness)
 
-**Observability** — Application metrics/traces/logs, RUM, synthetic monitoring, infrastructure observability  
 **Application Security** — Runtime security, vulnerability detection, attack paths, DevSecOps  
 **Software Delivery** — CI/CD observability, DORA dashboards, quality gates, release intelligence, workflow automation  
 **Edge Data Platform** — OneAgent, OpenTelemetry, hybrid ingest, edge processing  
