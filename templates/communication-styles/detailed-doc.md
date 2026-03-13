@@ -1,4 +1,4 @@
-# Communication Style: Notion Document
+# Communication Style: Detailed Document
 
 ## Purpose
 Comprehensive reference document that anyone can read asynchronously and get complete context.
