@@ -70,7 +70,7 @@ All capabilities should align to platform direction by:
 ---
 
 ## Go‑to‑Market Motions & Plays
-**Hyperscaler Co‑Sell**: packaged solutions (e.g., EKS/GKE/AKS blueprints, serverless packs, AI stack packs) with marketplace transactability; joint ROI cases. citeturn7search1turn7search2
+**Hyperscaler Co‑Sell**: packaged solutions (e.g., EKS/GKE/AKS blueprints, serverless packs, AI stack packs) with marketplace transactability; joint ROI cases.
 
 **Competitive Logs Takeout**: TCO head‑to‑head with assisted migration, OpenPipeline tuning, and AI narratives; win themes: cost, speed, simplicity.
 
@@ -89,7 +89,7 @@ All capabilities should align to platform direction by:
 - **Biannual**: Strategy refresh vs. CTO outlook (agentic AI trends, autonomy maturity).
 
 **Core Metrics**
-- **Consumption** per account (+XX%), **DPS attach** (+XX%), **feature adoption** (+XX pp), **time‑to‑first value** (−XX%), **partner‑influenced bookings** (≥80%), **AI workload coverage** (+XX%). citeturn7search1turn7search2
+- **Consumption** per account (+XX%), **DPS attach** (+XX%), **feature adoption** (+XX pp), **time‑to‑first value** (−XX%), **partner‑influenced bookings** (≥80%), **AI workload coverage** (+XX%).
 
 ---
 
@@ -103,8 +103,8 @@ All capabilities should align to platform direction by:
 
 ## Timeline & Milestones (FY26)
 - **Q3 FY26**: 3rd‑gen default for core workflows; 3–5 hyperscaler blueprints GA; logs strike‑team playbooks in market.
-- **Q4 FY26**: AI/LLM observability packs v2; OpenPipeline policy library GA; DPS attach +XX pp; partner influence ≥80% sustained. citeturn7search1turn7search2
-- **Perform & Mid‑Year**: showcase agentic governance and resilience outcomes; publish autonomy readiness framework. citeturn7search2turn3search1
+- **Q4 FY26**: AI/LLM observability packs v2; OpenPipeline policy library GA; DPS attach +XX pp; partner influence ≥80% sustained.
+- **Perform & Mid‑Year**: showcase agentic governance and resilience outcomes; publish autonomy readiness framework.
 
 ## 2026 Target Outcomes
 - Consumption-led ARR growth
