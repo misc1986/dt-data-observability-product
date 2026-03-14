@@ -1,18 +1,17 @@
 # Dynatrace Company Strategy Context (2026)
 
-> **Owner:** Wolfgang Heider  
-> **Last updated:** 2026-01-19 22:25  
-> **Note:** This document captures company-level strategy context relevant for product work. The examples and implications are narrated from a Software Delivery lens but the MCGs and strategic tenets apply to all Solutions.
+> **Last updated:** 2026-01-19  
+> **Note:** Company-level strategy context relevant for Data Observability product work.
 
 ---
 
-This document summarizes the 2026 company-level strategy context, grounded in the Application Observability + Log Analytics vision and the FY26 Mission Critical Goals (MCGs). The MCGs and strategic tenets are company-wide; Software Delivery-specific implications are called out as examples.
+This document summarizes the 2026 company-level strategy context, grounded in the Application Observability + Log Analytics vision and the FY26 Mission Critical Goals (MCGs).
 
 ## Strategic Context (grounded)
 
-Dynatrace's 2026 direction (as relevant here) is to complete and drive adoption of the latest Dynatrace platform (3rd gen), expand cloud‑native + AI‑native workloads (with developers as key decision influencers), and accelerate log monitoring and analytics. Execution is organized around June/December rallies and parallel strategic goals.
+Dynatrace's 2026 direction is to complete and drive adoption of the latest Dynatrace platform (3rd gen), expand cloud‑native + AI‑native workloads (with developers as key decision influencers), and accelerate log monitoring and analytics. Execution is organized around June/December rallies and parallel strategic goals.
 
-Key product strategy tenets (company-wide, with Software Delivery examples):
+Key product strategy tenets (company-wide):
 
 - **3rd gen first, with a low-friction path for existing customers**; classic (2nd gen) remains supported where required.
 - **Cloud‑native + AI‑native workloads** are the growth focus; developer experiences must be first-class.
@@ -23,34 +22,19 @@ Key product strategy tenets (company-wide, with Software Delivery examples):
 
 ## FY26 Mission Critical Goals (MCGs): Must‑Win Priorities
 
-The FY26 MCGs provide the top-level execution frame. For Software Delivery, the actionable mapping is:
+The FY26 MCGs provide the top-level execution frame:
 
 ### MCG 1 — Latest Dynatrace Completeness & Adoption (3rd gen)
 
-Implications:
-
-- Prioritize 3rd-gen-first workflows and reduce "classic dependency" in daily work.
-- Ensure Software Delivery surfaces (IDE, ChatOps, connectors, workflows) are 3rd-gen-native and use platform-consistent contracts (permissions, routing, tags).
-
----
+**Key principle:** Prioritize 3rd-gen-first workflows; ensure new capabilities are 3rd-gen-native and use platform-consistent contracts (permissions, routing, tags).
 
 ### MCG 2 — Cloud‑Native Workload Expansion
 
-Implications:
-
-- Ship "developer first" entry points (IDE, CI/CD, Git platforms) that reduce context switching.
-- Treat OpenTelemetry as a first-class reality in SDLC workflows; don't assume OneAgent-only signals.
-- Make onboarding and mapping (workspace → services, releases, deployments) cloud-native friendly.
-
----
+**Key principle:** Support cloud-native and AI-native workloads; treat OpenTelemetry as first-class; enable easy onboarding and mapping.
 
 ### MCG 3 — Log Monitoring and Analytics Acceleration
 
-Implications:
-
-- Treat logs as a first-class troubleshooting and automation trigger surface (not only "afterthought telemetry").
-- Prioritize workflows that reduce time-to-answer using logs + traces + topology context.
-- Design SDLC experiences to be compatible with OpenPipeline governance and cost control.
+**Key principle:** Logs as first-class troubleshooting surface; reduce time-to-answer using logs + traces + topology context; compatible with OpenPipeline governance and cost control.
 
 ---
 
@@ -62,25 +46,24 @@ Across all MCGs, we should bias toward product outcomes that drive:
 - Higher adoption of 3rd gen workflows
 - Increased usage of analytics (logs, traces, workflows) via daily user touchpoints
 
-## What This Means for Software Delivery (derived priorities)
+## Platform Alignment Principles
 
-Software Delivery should align to the platform direction by:
+All capabilities should align to platform direction by:
 
-1. **Building collection-agnostic workflows**: requirements must specify needed data in terms of fields/semantics, not "must be OneAgent".
+1. **Building collection-agnostic value**: requirements must specify needed data in terms of fields/semantics, not collection method.
 2. **Leaning on platform contracts**: primary fields/tags, OpenPipeline governance, and consistent permissions/cost context.
-3. **Meeting developers where they are**: IDE-first + CI/CD + Git platforms, with low-friction onboarding and context-rich guidance.
-4. **Supervised autonomy by default**: auditable actions, approvals, and clear ownership boundaries for agentic workflows.
+3. **Low-friction onboarding**: reduce time-to-first-value with context-rich guidance.
+4. **Supervised autonomy by default**: auditable actions, approvals, and clear ownership boundaries for automated workflows.
 
 ---
 
 ## Product & Platform Roadmap Themes (Execution Lens)
-**3rd‑Gen Experience**: unified navigation, context‑aware insights, role‑based workspaces (Dev, SRE, Sec, Platform), and AI copilots with explainability.
 
-**AI Observability & Agentic Governance**: policy‑bounded actioning, change‑impact simulation, lineage across agents/services/data, and audit‑ready decision trails.
+**3rd‑Gen Experience**: unified navigation, context‑aware insights, role‑based workspaces, and AI copilots with explainability.
 
-**Logs @ Scale**: PB‑scale ingestion, adaptive retention tiers, OpenPipeline policies, and Davis AI narratives; queries‑included pricing to simplify procurement. citeturn7search2turn7search1
+**AI Observability & Agentic Governance**: policy‑bounded actioning, change‑impact simulation, lineage across systems, and audit‑ready decision trails.
 
-**Developer Workflow Integration**: IDE extensions, CI/CD quality gates, ephemeral env tracing, SLO‑as‑code libraries.
+**Logs @ Scale**: PB‑scale ingestion, adaptive retention tiers, OpenPipeline policies, and Davis AI narratives; queries‑included pricing to simplify procurement.
 
 **Grail as the Contextual Lakehouse**: cross‑domain joins, entity graphs, fine‑grained RBAC, data residency controls for regulated industries.
 
