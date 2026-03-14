@@ -53,17 +53,18 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 **Scope:** Platform backbone — Grail (data lake), AppEngine, AutomationEngine, OpenPipeline (PPX), Platform Services (IAM, Documents, Platform Management), Platform Apps (PAPA - Dashboards, Notebooks, Search, SmartScape)  
 **Why relevant:** All Data Observability telemetry flows through Platform capabilities (Grail storage, OpenPipeline ingestion, Smartscape topology, PAPA dashboards)
 
-### Delivery, Reliability, Security (DRS) (governance & quality)
-**Scope:** SDLC guardrails, product quality/security/privacy, ops excellence  
-**Key Capabilities:** QSP (Quality, Security, Privacy), SRE (Site Reliability Engineering)  
-**Why relevant:** Release gates, security reviews, reliability requirements
-
 ### Observability (cross-domain correlation)
 **Scope:** Application metrics/traces/logs, RUM, synthetic monitoring, infrastructure observability  
 **Key Capabilities:** Infrastructure Observability, Application Observability, AI Observability  
 **Why relevant:**
 - **Infrastructure Observability** — Data pipelines run on infrastructure (Databricks clusters, Spark executors, K8s); cross-correlation for RCA
 - **AI Observability** — Shared narrative ("Data Observability is the prerequisite for AI Observability"); joint GTM, shared personas
+
+### Delivery, Reliability, Security (DRS) (governance & quality)
+**Scope:** SDLC guardrails, product quality/security/privacy, ops excellence  
+**Key Capabilities:** QSP (Quality, Security, Privacy), SRE (Site Reliability Engineering)  
+**Why relevant:** Release gates, security reviews, reliability requirements
+
 
 ### Other Solutions (awareness)
 
@@ -108,24 +109,3 @@ Dynatrace organizes product development using a **Solutions–Capabilities** mod
 - **Capability Lead** — Component roadmap, quality, feasibility, resourcing
 - **Delivery Lead** — Planning & execution across teams; risk & dependency mitigation
 - **Architect** — Feasibility, cross-capability design, non-functionals
-
----
-
-## Contact Channels (Slack)
-
-**Platform Capabilities:**
-- `#help-grail` — Grail data lake queries and storage
-- `#help-openpipeline-ppx` — OpenPipeline ingestion and processing
-- `#help-dashboards-app` — PAPA Dashboards
-- `#help-notebooks-app` — PAPA Notebooks
-- `#help-smartscape` — Topology and entity modeling
-- `#help-platform-services` — IAM, tokens, platform mgmt
-- `#help-iam` / `#help-oauth` — Identity and access
-
-**Business Observability:**
-- Business Observability Solution channels (internal comms)
-
-**Governance:**
-- QSP — Quality, Security, Privacy reviews
-- SRE — Reliability and operational standards
-
